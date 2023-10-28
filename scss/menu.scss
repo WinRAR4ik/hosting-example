@@ -1,8 +1,22 @@
-.menu{
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: red;
+.header{
+  background-color: #14107a;
+  .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    .Somlogo{
+      color: white;
+      font-size: 25px;
+    }
+    .list{
+      display: flex;
+      .item{
+        padding: 12px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
 }
