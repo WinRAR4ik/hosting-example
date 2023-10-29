@@ -9,6 +9,7 @@
     .card {
       width: 400px;
       box-shadow: 0 3px 6px rgba(8, 66, 255, 0.3);
+      border-radius: 5px;
 
       .img {
         width: 100%;
@@ -23,21 +24,24 @@
         .subtitle {
           margin-top: 5px;
           font-size: 20px;
+          color: #aaaa;
         }
 
         .text {
           margin-top: 5px;
           font-size: 18px;
+          line-height: 1.2;
         }
 
         .date-wrap {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin-top: 5px;
+          margin-top: 10px;
 
           .date-name {
             font-size: 18px;
+
           }
           .date{
             font-size: 18px;
@@ -47,6 +51,7 @@
         .btn-wrap {
           display: flex;
           justify-content: center;
+          margin-top: 15px;
           .btn{
             background-color: #14107a;
             color: white;

@@ -12,6 +12,7 @@
   width: 400px;
   -webkit-box-shadow: 0 3px 6px rgba(8, 66, 255, 0.3);
           box-shadow: 0 3px 6px rgba(8, 66, 255, 0.3);
+  border-radius: 5px;
 }
 .main .left .card .img {
   width: 100%;
@@ -25,10 +26,12 @@
 .main .left .card .content-wrap .subtitle {
   margin-top: 5px;
   font-size: 20px;
+  color: rgba(170, 170, 170, 0.6666666667);
 }
 .main .left .card .content-wrap .text {
   margin-top: 5px;
   font-size: 18px;
+  line-height: 1.2;
 }
 .main .left .card .content-wrap .date-wrap {
   display: -webkit-box;
@@ -40,7 +43,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .main .left .card .content-wrap .date-wrap .date-name {
   font-size: 18px;
@@ -55,6 +58,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 15px;
 }
 .main .left .card .content-wrap .btn-wrap .btn {
   background-color: #14107a;
